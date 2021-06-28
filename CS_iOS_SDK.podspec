@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 	s.author = { 'Romain Bouic' => 'romain.bouic@contentsquare.com' }
 	s.license = { :type => 'COMMERCIAL' }
 	s.platform = :ios
-	s.source = { :http => 'https://github.com/ContentSquare/CS_iOS_SDK/releases/download/v1.1.1/ContentsquareModule.xcframework.zip' }
+	s.source = { :http => 'https://github.com/wangjiejacques/CS_iOS_SDK/releases/download/4.4.1/ContentsquareModule.xcframework.zip' }
 	s.swift_version = '5.1'
 	s.ios.deployment_target = '10.0'
 	s.ios.vendored_frameworks = 'ContentsquareModule.xcframework'
