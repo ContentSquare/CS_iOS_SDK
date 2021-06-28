@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name = 'CS_iOS_SDK'
-	s.version = '1.1.1'
+	s.version = '4.4.1'
 	s.summary = 'Contentsquare UX SDK for iOS'
 	s.homepage = 'https://docs.contentsquare.com/ios'
 	s.author = { 'Romain Bouic' => 'romain.bouic@contentsquare.com' }
@@ -10,5 +10,4 @@ Pod::Spec.new do |s|
 	s.swift_version = '5.1'
 	s.ios.deployment_target = '10.0'
 	s.ios.vendored_frameworks = 'ContentsquareModule.xcframework'
-	s.dependency 'SwiftProtobuf', '~> 1.0'
 end
