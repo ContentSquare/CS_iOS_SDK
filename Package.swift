@@ -9,7 +9,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "ContentsquareModule",
-            targets: ["ContentsquareModule"]),
+            targets: ["ContentsquareModuleTarget"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -27,7 +27,7 @@ let package = Package(
         .binaryTarget(name: "ContentsquareModule", url: "https://github.com/wangjiejacques/CS_iOS_SDK/releases/download/4.4.2/ContentsquareModule.xcframework.zip", checksum: "b99b03b31af43bce20da0e4a3f75722548392a0e9266cbe23867ea2b5b87006b"),
         .target(name: "ContentsquareModuleTarget", dependencies: [
             .target(name: "ContentsquareModule"),
-            .product(name: "SwiftProtobuf", package: "SwiftProtobuf")
+            "SwiftProtobuf"
         ], path: "ContentsquareModuleTarget")
     ]
 )
