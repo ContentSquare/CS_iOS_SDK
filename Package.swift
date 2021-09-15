@@ -24,9 +24,10 @@ let package = Package(
         
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .binaryTarget(name: "ContentsquareModule", url: "https://github.com/wangjiejacques/CS_iOS_SDK/releases/download/4.4.2/ContentsquareModule.xcframework.zip", checksum: "b99b03b31af43bce20da0e4a3f75722548392a0e9266cbe23867ea2b5b87006b"),
+        .binaryTarget(name: "ContentsquareModule", url: "https://github.com/wangjiejacques/CS_iOS_SDK/releases/download/4.4.9/ContentsquareModule.xcframework.zip", checksum: "37e8b0b7f1331dc9cca5279123f80fac887ff2ae27d4c0b57738e397c7061894"),
         .target(name: "ContentsquareModuleTarget", dependencies: [
             .target(name: "ContentsquareModule"),
+            "SwiftProtobuf"
         ], path: "ContentsquareModuleTarget")
     ]
 )
