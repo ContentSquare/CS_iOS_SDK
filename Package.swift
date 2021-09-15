@@ -10,7 +10,7 @@ let package = Package(
         .library(
             name: "ContentsquareModule",
             type: .dynamic,
-            targets: ["ContentsquareModuleTarget"]),
+            targets: ["ContentsquareModule"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
