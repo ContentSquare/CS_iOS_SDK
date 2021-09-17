@@ -25,7 +25,10 @@ let package = Package(
                 .target(name: "ContentsquareModule"),
                 "SwiftProtobuf"
             ],
-            path: "ContentsquareModuleWrapper"),
+            path: "ContentsquareModuleWrapper",
+            resources: [
+                .process("ContentsquareBundle.bundle")
+            ]),
         .binaryTarget(
             name: "ContentsquareModule",
             url: "https://github.com/wangjiejacques/CS_iOS_SDK/releases/download/4.4.14/ContentsquareModuleStatic.xcframework.zip",
