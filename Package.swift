@@ -1,6 +1,6 @@
 // swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
-// WIP.
+
 import PackageDescription
 
 let package = Package(
@@ -25,10 +25,13 @@ let package = Package(
                 .target(name: "ContentsquareModule"),
                 "SwiftProtobuf"
             ],
-            path: "ContentsquareModuleWrapper"),
+            path: "ContentsquareModuleWrapper",
+            resources: [
+                .process("ContentsquareBundle.bundle")
+            ]),
         .binaryTarget(
             name: "ContentsquareModule",
-            url: "",
-            checksum: ""),
+            url: "https://github.com/ContentSquare/CS_iOS_SDK/releases/download/v4.9.0/ContentsquareModuleSwiftPackage.xcframework.zip",
+            checksum: "e4f5c229e5b553477e04fef6962b3dfa8e8788ae6d069a28a573af93943d3eed"),
     ]
 )
