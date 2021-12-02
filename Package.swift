@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "CS_iOS_SDK",
-    platforms: [.iOS(.v10)],
+    platforms: [.iOS(.v11)],
     products: [
         .library(
             name: "ContentsquareModule",
@@ -31,7 +31,7 @@ let package = Package(
             ]),
         .binaryTarget(
             name: "ContentsquareModule",
-            url: "https://github.com/wangjiejacques/CS_iOS_SDK/releases/download/v4.6.0/ContentsquareModuleSwiftPackage.xcframework.zip",
-            checksum: "e3f1b60e7418beb5cfd0791c886dc955db3526475f3163e39959079cae30bf2b"),
+            url: "https://github.com/wangjiejacques/CS_iOS_SDK/releases/download/v4.6.1/ContentsquareModuleSwiftPackage.xcframework.zip",
+            checksum: "942de168173edb0a7358b109a6af17432c7a10de76284af2cf30f2af012a3433"),
     ]
 )
