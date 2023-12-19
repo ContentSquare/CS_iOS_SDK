@@ -35,7 +35,8 @@ let package = Package(
             ],
             path: "ContentsquareModuleWrapper",
             resources: [
-                .process("ContentsquareBundle.bundle")
+                .process("ContentsquareBundle.bundle"),
+                .copy("PrivacyInfo.xcprivacy")
             ]
         ),
         .target(
@@ -44,15 +45,18 @@ let package = Package(
                 .target(name: "ContentsquareErrorAnalysisModule"),
                 .product(name: "CrashReporter", package: "PLCrashReporter"),
             ],
-            path: "ContentsquareErrorAnalysisModuleWrapper"
+            path: "ContentsquareErrorAnalysisModuleWrapper",
+            resources: [
+                .copy("PrivacyInfo.xcprivacy")
+            ]
         ),
         .binaryTarget(
             name: "ContentsquareModule",
-            url: "https://github.com/ContentSquare/CS_iOS_SDK/releases/download/4.27.1/ContentsquareModuleSwiftPackage.xcframework.zip",
-            checksum: "54394364bd3f6eb444e130ed780f1c9cb829fcb8ff754471a99ed4f10f4332c5"),
+            url: "https://github.com/ContentSquare/CS_iOS_SDK/releases/download/4.28.0/ContentsquareModuleSwiftPackage.xcframework.zip",
+            checksum: "b7ed9388962b97efaa52bd8cd4dad312151ae98ae8ac3f139674699a87f5a1d2"),
         .binaryTarget(
             name: "ContentsquareErrorAnalysisModule",
-            url: "https://github.com/ContentSquare/CS_iOS_SDK/releases/download/4.27.1/ContentsquareErrorAnalysisModuleSwiftPackage.xcframework.zip",
-            checksum: "2743d21af6ec55fc70695a897d4602777b1eb94560bbcf8876bd186f709b0a78"),
+            url: "https://github.com/ContentSquare/CS_iOS_SDK/releases/download/4.28.0/ContentsquareErrorAnalysisModuleSwiftPackage.xcframework.zip",
+            checksum: "89521c9e3197c8400aa331bc94a9c4912887eee7371d211770d96d27033de716"),
     ]
 )
