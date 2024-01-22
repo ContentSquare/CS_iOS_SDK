@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		eD0mHfG2fsdA+gIArwdN4Z0RJmg=
+		odoafZJB89grLcaxKEbeAJH9gd0=
 		</data>
 		<key>CaptureProgressViewController.nib/objects-13.0+.nib</key>
 		<data>
@@ -24,9 +24,13 @@
 		<data>
 		c8QrAdWr02UTq4wGW64RbtB7yCY=
 		</data>
-		<key>TutorialView.nib</key>
+		<key>TutorialView.nib/objects-13.0+.nib</key>
 		<data>
-		HUSq8zYPXcFNnuovpu0IPbBITLs=
+		x5ehXUHRiDfcw628+GyAIFfbHcI=
+		</data>
+		<key>TutorialView.nib/runtime.nib</key>
+		<data>
+		ZYuLV9d25UsopVp8NrrFvS3h+NU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,11 +39,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eD0mHfG2fsdA+gIArwdN4Z0RJmg=
+			odoafZJB89grLcaxKEbeAJH9gd0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZhIDn1xEPqL5N9z+O0meVV+Im6HON2lZh16CNPQ2gcM=
+			0Yc2Oogr9G3pVQ+/e5w8ECegQjkl/Ks/+JQKvtBN23E=
 			</data>
 		</dict>
 		<key>CaptureProgressViewController.nib/objects-13.0+.nib</key>
@@ -86,15 +90,26 @@
 			aVxO5oX+5ejHAB+LMY71wJKGaK8kc3ghsbkrgw7oW5o=
 			</data>
 		</dict>
-		<key>TutorialView.nib</key>
+		<key>TutorialView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HUSq8zYPXcFNnuovpu0IPbBITLs=
+			x5ehXUHRiDfcw628+GyAIFfbHcI=
 			</data>
 			<key>hash2</key>
 			<data>
-			6Byda1OjHtDoJu3xjWGrNhnfdAul6neOLVRQrd4csqI=
+			ruY204SEuep2vuMetdI2b33LfmkL8nc8shIrJVvrI+I=
+			</data>
+		</dict>
+		<key>TutorialView.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZYuLV9d25UsopVp8NrrFvS3h+NU=
+			</data>
+			<key>hash2</key>
+			<data>
+			K4HeEA41/b8GWRFcswArwtgD9J4pTcCHHommAlpXPgk=
 			</data>
 		</dict>
 	</dict>
