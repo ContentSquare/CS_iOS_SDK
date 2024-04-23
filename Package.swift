@@ -19,7 +19,7 @@ let package = Package(
         .package(
             name: "CSCrashReporter",
             url: "https://github.com/ContentSquare/CS_iOS_CrashReporter.git",
-            .exact("0.0.3")),
+            .exact("1.0.0")),
     ],
     targets: [
         // binaryTarget doesn't support dependency, use a wrapper to fix this.
@@ -38,7 +38,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "ContentsquareModule",
-            url: "https://github.com/ContentSquare/CS_iOS_SDK/releases/download/4.31.2/ContentsquareModuleSwiftPackage.xcframework.zip",
-            checksum: "eda2e55345907dc4a0edc633d8a2ff4bdc7c0e6d33cb6f8517090580f56bd572"),
+            url: "https://github.com/ContentSquare/CS_iOS_SDK/releases/download/4.32.0/ContentsquareModuleSwiftPackage.xcframework.zip",
+            checksum: "efd4c80a84c7b9424943d75d500da5545ea92523826da6904bce31a8ffac5ed3"),
     ]
 )
