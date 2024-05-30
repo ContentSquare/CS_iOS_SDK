@@ -6,31 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		kf+ziq7IWU5g7nxY5HLF8KQ/JU4=
-		</data>
-		<key>CaptureProgressViewController.nib/objects-13.0+.nib</key>
-		<data>
-		fa/rvG4+oavruy7AQlw13vtpRVI=
-		</data>
-		<key>CaptureProgressViewController.nib/runtime.nib</key>
-		<data>
-		zgoTnziJstSNaxvYt2DuTzKYhJU=
-		</data>
-		<key>SnapshotTutorialView.nib/objects-13.0+.nib</key>
-		<data>
-		kI6sqcqROYDld0TYgK2nNQU4WOo=
-		</data>
-		<key>SnapshotTutorialView.nib/runtime.nib</key>
-		<data>
-		c8QrAdWr02UTq4wGW64RbtB7yCY=
-		</data>
-		<key>TutorialView.nib/objects-13.0+.nib</key>
-		<data>
-		x5ehXUHRiDfcw628+GyAIFfbHcI=
-		</data>
-		<key>TutorialView.nib/runtime.nib</key>
-		<data>
-		ZYuLV9d25UsopVp8NrrFvS3h+NU=
+		A+MZVpw12WbzyvK/VYTMbuEG/J4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -39,77 +15,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kf+ziq7IWU5g7nxY5HLF8KQ/JU4=
+			A+MZVpw12WbzyvK/VYTMbuEG/J4=
 			</data>
 			<key>hash2</key>
 			<data>
-			pMQMzXoLpOZ9SkkZj0wlZ0jpdfYLjNDxiy9W1NqQN2M=
-			</data>
-		</dict>
-		<key>CaptureProgressViewController.nib/objects-13.0+.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fa/rvG4+oavruy7AQlw13vtpRVI=
-			</data>
-			<key>hash2</key>
-			<data>
-			zegYA8eMsMdLdMYe2kt4TaRQ1pCg3fyxnnhjbyxlioI=
-			</data>
-		</dict>
-		<key>CaptureProgressViewController.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zgoTnziJstSNaxvYt2DuTzKYhJU=
-			</data>
-			<key>hash2</key>
-			<data>
-			Nnx7KPpkUk7n5k2z6rqibinKfjUGhkTuhNBmpO8mI88=
-			</data>
-		</dict>
-		<key>SnapshotTutorialView.nib/objects-13.0+.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kI6sqcqROYDld0TYgK2nNQU4WOo=
-			</data>
-			<key>hash2</key>
-			<data>
-			kzFbjVRvExwKn40ljY/idcVYy3IdIzFdcwVWs6mD1Mw=
-			</data>
-		</dict>
-		<key>SnapshotTutorialView.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			c8QrAdWr02UTq4wGW64RbtB7yCY=
-			</data>
-			<key>hash2</key>
-			<data>
-			aVxO5oX+5ejHAB+LMY71wJKGaK8kc3ghsbkrgw7oW5o=
-			</data>
-		</dict>
-		<key>TutorialView.nib/objects-13.0+.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			x5ehXUHRiDfcw628+GyAIFfbHcI=
-			</data>
-			<key>hash2</key>
-			<data>
-			ruY204SEuep2vuMetdI2b33LfmkL8nc8shIrJVvrI+I=
-			</data>
-		</dict>
-		<key>TutorialView.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZYuLV9d25UsopVp8NrrFvS3h+NU=
-			</data>
-			<key>hash2</key>
-			<data>
-			K4HeEA41/b8GWRFcswArwtgD9J4pTcCHHommAlpXPgk=
+			p77lKobofyiehK8qcEkT7qnDk+SFahaSyEy/kAjIhkU=
 			</data>
 		</dict>
 	</dict>
