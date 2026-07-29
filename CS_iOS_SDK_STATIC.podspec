@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = 'CS_iOS_SDK_STATIC'
-s.version = '4.51.2'
+s.version = '4.52.0'
 s.summary = 'Contentsquare UX SDK for iOS'
 s.homepage = 'https://docs.contentsquare.com/ios'
 s.author = { 'Romain Bouic' => 'romain.bouic@contentsquare.com' }
@@ -28,9 +28,10 @@ s.swift_version = '5.1'
 s.ios.deployment_target = '13.0'
     s.ios.vendored_frameworks = 'ContentsquareModule.xcframework'
 s.resource_bundles = {'CS_iOS_SDK_STATIC' => ['**/ios-arm64/**/*.xcprivacy']}
-s.source = { :http => 'https://github.com/ContentSquare/CS_iOS_SDK/releases/download/4.51.2/ContentsquareModulePodStatic.xcframework.zip', :flatten  => true }
+s.source = { :http => 'https://github.com/ContentSquare/CS_iOS_SDK/releases/download/4.52.0/ContentsquareModulePodStatic.xcframework.zip', :flatten  => true }
 s.resource = 'Resources/ContentsquareBundle.bundle'
 s.dependency 'CSSwiftProtobuf', '1.33.3'
 s.dependency 'CSCrashReporter', '1.0.1'
-s.dependency 'ContentsquareCore', '0.1.4'
+s.dependency 'ContentsquareCore', '0.2.0'
+s.dependency 'ContentsquareUICore', '0.1.0'
 end
